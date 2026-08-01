@@ -1,5 +1,5 @@
 # Step 1
-FROM node:24-trixie-slim as packages
+FROM node:24-trixie-slim AS packages
 
 WORKDIR /app
 COPY backstage.json package.json yarn.lock ./
